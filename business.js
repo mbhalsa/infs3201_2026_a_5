@@ -1,7 +1,6 @@
 const persistence = require('./persistence.js')
 const crypto = require('crypto')
 const emailSystem = require('./emailSystem')
-
 /**
  * Temporary in-memory storage for pending 2FA codes.
  * Key = username
