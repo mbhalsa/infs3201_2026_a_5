@@ -2,7 +2,6 @@ const fs = require('fs/promises')
 const mongodb = require('mongodb')
 const crypto = require('crypto')
 
-
 let cachedClient = undefined
 let cachedDb = undefined
 async function getDatabase() {
