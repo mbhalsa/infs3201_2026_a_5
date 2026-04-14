@@ -13,7 +13,6 @@ function sendEmail(to, subject, message) {
     console.log("Message:", message)
     console.log("----- EMAIL END -----")
 }
-
 module.exports = {
     sendEmail
 }
